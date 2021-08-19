@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.jpg" type="image/jpg">
+    <title>TravelGo</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="logo" src="img/logo.jpg" alt="TravelGo Logo">
+    
+            <form action="#" class="search">
+                <input class="search__input" type="text" placeholder="Search Hotels" id="search">
+                <button for="search" class="search__button"><i class="fas fa-search search__icon"></i></button>
+            </form>
+    
+            <nav class="user-nav">
+                <div class="user-nav__icon">
+                    <i class="fas fa-bookmark fa-lg"></i> 
+                    <span class="user-nav__icon__text">7</span>
+                </div>
+    
+                <div class="user-nav__icon">
+                    <i class="fas fa-comments fa-lg"></i> 
+                    <span class="user-nav__icon__text">13</span>
+                </div>
+    
+                <div class="user-nav__user-dp">
+                    <img class="user-nav__user-dp__img" src="img/user.jpg" alt="User Picture">
+                    <span class="user-nav__user-dp__name">User 1</span>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="content">
+        <nav class="sidebar">
+            <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                    <a href="#" class="side-nav__link">
+                        <i class="fas fa-home fa-lg side-nav__icon"></i>
+                        <span>Hotels</span>
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <i class="fas fa-plane fa-lg side-nav__icon"></i>
+                        <span>Flights</span>
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <i class="fas fa-key fa-lg side-nav__icon"></i>
+                        <span>Car rentals</span>
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <i class="fas fa-map fa-lg side-nav__icon"></i>
+                        <span>Tours</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="legal"> 
+                &copy; 2021 by TravelGo. All rights reserved.
+            </div>
+        </nav>
+
+        <main class="hotel-view">
+            <div class="gallery">
+                <figure class="gallery__item">
+                    <img src="img/hotel-1.jpg" alt="Hotel Picture 1" class="gallery__pic">
+                </figure>
+
+                <figure class="gallery__item">
+                    <img src="img/hotel-2.jpg" alt="Hotel Picture 2" class="gallery__pic">
+                </figure>
+
+                <figure class="gallery__item">
+                    <img src="img/hotel-3.jpg" alt="Hotel Picture 3" class="gallery__pic">
+                </figure>
+            </div>
+
+            <div class="overview">
+                <h1 class="overview__heading">Hotel Las Palmas</h1>
+                
+                <div class="overview__star">
+                    <i class="fa fa-star fa-2x overview__icon__star"></i>
+                    <i class="fa fa-star fa-2x overview__icon__star"></i>
+                    <i class="fa fa-star fa-2x overview__icon__star"></i>
+                    <i class="fa fa-star fa-2x overview__icon__star"></i>
+                    <i class="fa fa-star fa-2x overview__icon__star"></i>
+                </div>
+
+                <div class="overview__loc">
+                    <i class="fa fa-map-marker-alt fa-2x overview__icon__loc"></i>
+                    <button class="btn-inline">Albufeira, Portugal</button>
+                </div>
+
+                <div class="overview__rating">
+                    <div class="overview__rating__avg">8.6</div>
+                    <div class="overview__rating__count">429 votes</div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="description">
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!
+                    </p>
+                    <p class="para">
+                        Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!
+                    </p>
+
+                    <ul class="list">
+                        <li class="list__items">Close to beach</li>
+                        <li class="list__items">Breakfast included</li>
+                        <li class="list__items">Free airport shuttle</li>
+                        <li class="list__items">Free wifi in all rooms</li>
+                        <li class="list__items">Air conditioning and heating</li>
+                        <li class="list__items">Pets allowed</li>
+                        <li class="list__items">We speak all languages</li>
+                        <li class="list__items">Perfect for families</li>
+                    </ul>
+
+                    <div class="recommend">
+                        <p class="recommend__count">
+                            Lucy and 3 others recommend this hotel.
+                        </p>
+
+                        <div class="recommend__pic">
+                            <img src="img/user-1.jpg" alt="Friend 1" class="recommend__user-pic">
+                            <img src="img/user-2.jpg" alt="Friend 1" class="recommend__user-pic">
+                            <img src="img/user-4.jpg" alt="Friend 1" class="recommend__user-pic">
+                            <img src="img/user-3.jpg" alt="Friend 1" class="recommend__user-pic">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-reviews">
+                    <figure class="review">
+                        <blockquote class="user-review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum.
+                        </blockquote>
+
+                        <figcaption class="user-review__user">
+                            <img src="img/user-5.jpg" alt="User 1" class="user-review__user__pic">
+                            <div class="user-review__userbox">
+                                <p class="user-review__user__name">Nick Smith</p>
+                                <p class="user-review__user__date">August 23rd, 2019</p>
+                            </div>
+                            <div class="user-review__rating">7.8</div>                       
+                        </figcaption>
+                    </figure>
+
+
+                    <figure class="review">
+                        <blockquote class="user-review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint.
+                        </blockquote>
+
+                        <figcaption class="user-review__user">
+                            <img src="img/user-6.jpg" alt="User 2" class="user-review__user__pic">
+                            <div class="user-review__userbox">
+                                <p class="user-review__user__name">Mary Jane</p>
+                                <p class="user-review__user__date">April 3rd, 2021</p>
+                            </div>
+                            <div class="user-review__rating">9.2</div>                       
+                        </figcaption>
+                    </figure>
+
+                    <button class="btn-inline">Show All  <span>&rarr;</span></button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
